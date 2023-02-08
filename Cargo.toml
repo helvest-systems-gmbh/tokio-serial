@@ -37,7 +37,8 @@ optional = true
 [dependencies.mio-serial]
 version = "5.0.4"
 default-features = false
-registry = "helvest"
+git = "ssh://git@github.com/helvest-systems-gmbh/mio-serial.git"
+tag = "v5.0.4"
 
 [dependencies.bytes]
 version = "1"
